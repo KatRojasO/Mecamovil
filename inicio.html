@@ -23,6 +23,13 @@
             font-size: 1.5rem !important;
             color: white !important;
         }
+        .navbar-toggler {
+            border-color: white;
+        }
+        .navbar-toggler-icon {
+            background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+        }
+
 
         .nav-link {
             font-size: 1.1rem;
@@ -46,6 +53,7 @@
         .icono-sm{
             font-size: 3rem;
         }
+
         @media screen and (max-width: 575px){
             .icono-sm{
                 font-size: 3rem !important;
@@ -60,7 +68,7 @@
     <nav class="navbar navbar-expand-sm bg-mecamovil">
         <div class="container">
             <div class="navbar-brand mb-0 h1 d-flex align-items-center gap-2">
-                <img src="https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo.svg" width="30" height="24" alt="Logo">
+                <img src="logo-navbar.png" width="70" height="70" alt="Logo">
                 Mecamovil
             </div>
             <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse"
@@ -104,12 +112,7 @@
                    
 
                 </ul>
-                <!-- <form class="d-flex my-2 my-lg-0">
-                    <input class="form-control me-sm-2" type="text" placeholder="Search" />
-                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
-                        Search
-                    </button>
-                </form> -->
+                
                 <div class="d-flex my-2 my-lg-0 dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         <img class="rounded-circle" width="36" height="36" src="https://adminlte.io/themes/v3/dist/img/user2-160x160.jpg" alt=""> 
